@@ -1,6 +1,7 @@
 import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
 import Home from '../Home/Home';
 import Color from '../Color/Color';
+import NotFound from '../NotFound/NotFound';
 
 
 import './Main.css';
@@ -31,6 +32,7 @@ export default function Main() {
         <Switch>
           <Route exact path='/'><Home /></Route>
           <Route exact path='/rgb/:r/:g/:b'><Color /></Route>
+          <Route component={NotFound} path='*'></Route>
         </Switch> 
       </div>
     </BrowserRouter>

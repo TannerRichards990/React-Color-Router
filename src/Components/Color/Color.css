@@ -1,7 +1,15 @@
-.color {
+.Color {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100wv;
+  width: 100vw;
 
+}
+
+.Color-h1 {
+  background: white;
+  border: 1px solid black;
+  width: 30vw;
+  
+  
 }

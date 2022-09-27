@@ -6,7 +6,7 @@ export default function Color() {
 
   return (
     <div className='Color' style={{ backgroundColor: `rgb(${r}, ${g}, ${b})` }}>
-      <h1>
+      <h1 className='Color-h1'>
         rgb({r}, {g}, {b})
       </h1>
     </div>
