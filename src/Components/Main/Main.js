@@ -1,6 +1,7 @@
-import Home from './Components/Home/Home';
-import Color from './Components/Color/Color';
 import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
+import Home from '../Home/Home';
+import Color from '../Color/Color';
+
 
 import './Main.css';
 

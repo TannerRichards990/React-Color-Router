@@ -1,4 +1,4 @@
-import '/Color.css';
+import './Color.css';
 import { useParams } from 'react-router-dom';
 
 export default function Color() {
